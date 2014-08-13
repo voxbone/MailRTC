@@ -6,6 +6,8 @@ The plain WebRTC demo can be found here: https://github.com/voxbone/webrtc-auth-
 
 Blog post on full step-by-step guide available here: http://blog.voxbone.com/mailRTC
 
+The app is currently hosted on Heroku here: http://mailrtc.herokuapp.com/email  It uses a real test DID that I use. So, until I find a better solution, if I don't answer don't feel bad, if I do - be nice :) And don't forget to enable microphone and camera in your browser!
+
 Usage & Recipe
 ===================
 **Pre-requisite to run this demo app:**
