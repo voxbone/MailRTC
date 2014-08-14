@@ -133,9 +133,3 @@ Compatibility
 - Firefox 3+
 - Chrome 4+
 - Opera 9+
-
-**Mobile**
-
-- Opera Mobile 10+
-- Chrome for Android 18+
-- Firefox for Android 15+
