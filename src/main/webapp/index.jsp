@@ -20,7 +20,7 @@
 
 </head>
 <!-- invoke init() method when page is initializing -->
-<body onLoad="init();">
+<body onLoad="init();" onbeforeunload="voxbone.WebRTC.unloadHandler();">
     <form>
         <img src="assets/profile.png" id="picture" alt="">
         <hr>
