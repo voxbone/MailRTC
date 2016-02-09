@@ -12,15 +12,15 @@
 
     <!-- Scripts -->
     <script src="auth" type="text/javascript"></script>
-    <script src="https://webrtc.voxbone.com/js/voxbone-0.0.1.js" type="text/javascript"></script>
-    <script src="https://webrtc.voxbone.com/js/jssip-0.3.0.js" type="text/javascript"></script>
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="https://webrtc.voxbone.com/js/jssip-0.7.9-vox.js" type="text/javascript"></script>
+    <script src="https://webrtc.voxbone.com/js/voxbone-0.0.3.js" type="text/javascript"></script>
     <script src="js/stopwatch.js" type="text/javascript"></script>
     <script src="js/call.js" type="text/javascript"></script>
 
 </head>
 <!-- invoke init() method when page is initializing -->
-<body onLoad="init();">
+<body onLoad="init();" onbeforeunload="voxbone.WebRTC.unloadHandler();">
     <form>
         <img src="assets/profile.png" id="picture" alt="">
         <hr>
