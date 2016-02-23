@@ -13,8 +13,8 @@
     <!-- Scripts -->
     <script src="auth" type="text/javascript"></script>
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-    <script src="https://webrtc.voxbone.com/js/jssip-0.7.9-vox.js" type="text/javascript"></script>
-    <script src="https://webrtc.voxbone.com/js/voxbone-0.0.3.js" type="text/javascript"></script>
+    <script src="https://webrtc.voxbone.com/js/jssip-latest.js" type="text/javascript"></script>
+    <script src="https://webrtc.voxbone.com/js/voxbone-latest.js" type="text/javascript"></script>
     <script src="js/stopwatch.js" type="text/javascript"></script>
     <script src="js/call.js" type="text/javascript"></script>
 
